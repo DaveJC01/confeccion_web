@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(150deg, #E74C3C, #3498DB);
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Open Sans'; 
+}
+
+.primer_titulo {
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    font-size: 50px;
+    
+}
+
+.segundo_titulo{
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.administrador{
+    display: flex;
+    justify-content: center;
+}
+
+
+#acordion {
+    width: 250px;
+    height: 40px;
+    background: linear-gradient(150deg, #797D7F, #3498DB );
+    border-radius: 20px;
+     
+
+}
+
+#acordion:hover{
+    scale: 1.09;
+    background: rgb(14, 233, 69);
+    transition: .5s;
+}
+
+.padre{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#contenedor{
+
+    width: 500px;
+    height: 300px;
+    box-shadow: 5px 4px  10px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    background: #fff;
+
+}
+.usuario{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.inicio {
+    width: 100%;
+   
+}
+
+.inicio1 {
+    width: 100%;
+    height: 340px;
+}
+
+.ocultar {
+    display: none;
+    
+}
+
+.registrarse{
+    text-align: center;
+}
+
+@media (max-width: 600px ) {
+
+    .primer_titulo {
+        position: relative;
+        top: 20px;
+        width: 35%px;
+        margin: 0;
+        font-size: 40px;
+    
+        
+    }
+
+
+   #acordion {
+     width: 220px;
+     margin: 0 0 20px;
+     position: relative;
+   }
+
+   .usuario{
+    display: flex;
+    justify-content: center;
+   }
+
+   .administrador{
+    display: none;
+   }
+
+   #contenedor{
+    top: 200px;
+    position: relative;
+   
+   }
+
+    
+    
+}
+
+
+
+

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse</title>
+    <link rel="stylesheet" href="estilo_registro.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Registrarse</h1>
+
+        <select id="tipo_documento">
+        <option>Cedula de ciudadania</option>
+        <option>Tarjeta de identidad</option>
+        <option>Cedula extrangera</option>
+        </select>
+        <form method="post">
+            <div class="registro">
+                <input type="tel">
+                <label>Numero de documento</label>
+            </div>
+            <div class="registro">
+                <input type="text">
+                <label>Nombre</label>
+            </div>
+            <div class="registro">
+                <input type="text">
+                <label>Apellido</label>
+            </div>
+            <div class="registro">
+                <input type="email">
+                <label>Correo</label>
+            </div>
+            <div class="registro">
+                <input type="tel">
+                <label>Telefono</label>
+            </div>
+            <div class="registro">
+                <input type="text">
+                <label>Dirección</label>
+            </div>
+
+            <button id="btn_registrarse" type="button" onclick="redirecciona()">Registrarse</button>
+        </div>
+        </form>
+
+    </div>
+
+
+<script src="registro.js"></script>
+</body>
+</html>

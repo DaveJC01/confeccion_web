@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar sección </title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+   
+
+<!-- ESTE DIV ES EL RECUADRO DONDE VA EL INICIO DE SESION --> 
+    <div class="Registro">
+        <h1>Iniciar sesión</h1>
+        <form method="post">
+            <div class="nombre_usuario">
+                <input type="text">
+                <label>Digite su usuario</label>
+            </div>
+            <div class="nombre_usuario">
+                <input type="password">
+                <label >Contraseña</label>
+            </div>
+            <div class="recordar_clave">
+                ¿Olvido su contraseña?</div>
+               <div class="botonnes">
+                <div class="btn">
+                 <button id="iniciar_btn" type="button"  onclick="redireccionar()">Iniciar sesión</button>   
+                </div>
+                
+               <button id="btn_registrarse" type="button" onclick="registrar()">Registrarse</button>
+               </div>
+        </form>
+        
+    </div>
+
+    <script src="./iniciosecion.js"></script>
+</body>
+</html>
