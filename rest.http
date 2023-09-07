@@ -1,0 +1,35 @@
+###
+GET http://localhost:10000/api HTTP/1.1
+
+###
+POST http://localhost:10000/api HTTP/1.1
+Content-Type: application/json
+
+{
+    "tipoDc": "Cedula Extrangera",
+    "numDc": "939333",
+    "nombre": "Pablo",
+    "apellido": "Martinez",
+    "telefono": "289244",
+    "correo": "Correo@correo.com",
+    "direccion": "Carrera 2",
+    "password": "2020"
+}
+
+###
+DELETE http://localhost:10000/api/5 HTTP/1.1
+
+###
+PUT http://localhost:10000/api/4 HTTP/1.1
+Content-Type: application/json
+
+{
+    "tipoDc": "Cedula de Ciudadania",
+    "numDc": 12345,
+    "nombre": "David",
+    "apellido": "Mosquera",
+    "telefono": 567890,
+    "correo": "Correo@correo.com",
+    "direccion": "Carrera 2",
+    "password": "1020"
+}

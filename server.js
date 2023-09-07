@@ -17,6 +17,7 @@ app.set('port', process.env.PORT || 10000);
 
 //CONNECCION A LA BASA DE DATOS-----------------------------------------
 app.use(mycon(mysql, dboptions, 'single'));
+app.use(express.json());
 
 //RUTAS-----------------------------------------------------------------
 app.get('/', (req, res)=>{
